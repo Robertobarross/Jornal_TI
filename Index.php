@@ -66,7 +66,7 @@
 
         <h5 class="Direitos" align="center">&COPY; Copyright | 2021 | JTi</h5>
         <style type="text/css">/* Configurações da div e dos direitos autorais com css */
-         #Rodape{width: 100%; height: 50px; float: left; background-color: brown; margin: 5px,5px; }
+        #Rodape{width: 100%; height: 50px; float: left; background-color: brown; margin: 5px,5px; }
         .Direitos{font-size: 12px; font-family: Arial; color: white;}
         </style>
 
