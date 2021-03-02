@@ -29,7 +29,7 @@
 
         <h2 class="Menu">MENU</h2><!-- Menu e links de acesso -->
         <a href="ADM.php" class="links_menu" style="text-decoration: none">ADMINISTRADOR</a>
-        <a href="Conteudo.php" class="links_menu" style="text-decoration: none">POSTAGENS</a>
+        <a href="Form_cad.php" class="links_menu" style="text-decoration: none">CADASTRE-SE</a>
         <a href="Contato.php" class="links_menu" style="text-decoration: none">CONTATO</a>
 
         <style type="Text/css">/* Configuração do Menu e links */
