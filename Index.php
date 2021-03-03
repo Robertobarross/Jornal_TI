@@ -28,7 +28,7 @@
     <div id="Cardapio" align="center"><!-- Inicio da div Menu -->
 
         <h2 class="Menu">MENU</h2><!-- Menu e links de acesso -->
-        <a href="ADM.php" class="links_menu" style="text-decoration: none">ADMINISTRADOR</a>
+        <a href="Form_login.php" class="links_menu" style="text-decoration: none">ADMINISTRADOR</a>
         <a href="Form_cad.php" class="links_menu" style="text-decoration: none">CADASTRE-SE</a>
         <a href="Contato.php" class="links_menu" style="text-decoration: none">CONTATO</a>
 
