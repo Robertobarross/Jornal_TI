@@ -25,7 +25,7 @@
 
 <div id="Cadastro" align="center">
 
-    <h1 class="Titulo">Cadastre-se</h1><!-- Inicio da div Cadastre-se -->
+    <h2 class="Titulo">Cadastre-se</h2><!-- Inicio da div Cadastre-se -->
     
     <!-- Inicio do formulário -->
     <Form action="cad.php" method="POST" enctype="multipart/form-data">
@@ -38,7 +38,8 @@
     <p><input type="submit" value="Cadastrar" class="bt_cad">
     <input type="reset" value="Limpar" class="bt_cad"> 
     <!-- Link para retornar ao menu inicial -->
-    <p><a href="Index.php" align="center">Retornar a página inicial</a></p>
+
+    <p><a href="Index.php" class="Link" align="center">Retornar a página inicial</a></p>
 
     </form>
 
@@ -47,6 +48,8 @@
     .camp_cad{width: 30%; margin; 15px; height: 15px; padding: 2px;}
     .bt_cad{width:10%; padding;2px; font-size: 15px; font-family; Arial; color: white; background-color: gray; }
     .bt_cad:hover{background-color: brown;}
+    .Link{font-size: 15px; font-family: Arial; color:blue;}
+
     </style>
         
 </div>
