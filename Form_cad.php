@@ -31,8 +31,8 @@
     <Form action="cad.php" method="POST" enctype="multipart/form-data">
     <!-- Campos do formulário -->
     <br><input type="email" name="email" class="camp_cad" placeholder="E-mail" required></br>
-    <br><input type="senha" name="senha" class="camp_cad" placeholder="Senha" required></br>
-    <br><input type="senha" name="confirmasenha" class="camp_cad" placeholder="Confirmar Senha" required></br>
+    <br><input type="password" size="10" maxlength="10" name="senha" class="camp_cad" placeholder="Senha" required></br>
+    <br><input type="password" size="10" maxlength="10" name="confirmasenha" class="camp_cad" placeholder="Confirmar Senha" required></br>
     
     <!-- Botões -->
     <p><input type="submit" value="Cadastrar" class="bt_cad">
