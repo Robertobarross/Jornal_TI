@@ -44,9 +44,9 @@
     </form>
 
     <style type="text/css">/* Formato do titulo, campos e botões com css */
-    .Titulo{font-size: 25px; font-family; Arial; padding: 2px;}
-    .camp_cad{width: 30%; margin; 15px; height: 15px; padding: 2px;}
-    .bt_cad{width:10%; padding;2px; font-size: 15px; font-family; Arial; color: white; background-color: gray; }
+    .Titulo{font-size: 25px; font-family: broadway; padding: 2px;}
+    .camp_cad{width: 30%; margin: 2px; height: 15px; padding: 2px;}
+    .bt_cad{width:10%; padding: 2px; font-size: 15px; font-family: Arial; color: white; background-color: gray; }
     .bt_cad:hover{background-color: brown;}
     .Link{font-size: 15px; font-family: Arial; color:blue;}
 
