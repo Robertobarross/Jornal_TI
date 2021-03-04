@@ -23,32 +23,35 @@
             
 </div><!-- Fim da div topo -->
 
-<p><div id="Log" align="center";
+<div id="Login" align="center">  <!-- Inicio da div Login -->
 
      <h2 class="titulo">Login</h2>
-
+ 
+     <!-- Inicio do Formulário de Login -->
      <Form action="logar.php" method="POST" enctype="multipart/form-data">
 
-     <br><input type="email" name="email" class="camp_cad" placeholder="Email" required>
-     <br><input type="password" name="senha" class="camp_cad" placeholder="Senha" require>
+     <br><input type="email" name="email" class="camp_cad" placeholder="Email" required></br>
+     <br><input type="password" name="senha" class="camp_cad" placeholder="Senha" require></br>
 
+     <!-- Botões -->
      <p></p><input type="submit" value="Logar" class="bt_cad">
      <input type="reset" value="Limpar" class="bt_cad"></p>
 
+     <!-- Links -->
      <a href="Form_cad.php" class="Link" align="center">Cadastre-se</a> | <a href="Index.php" class="Link">Página Inicial</a>
 
      </form>
 
-     <style type="text/css">
-    .titulo{font-size: 25px; font-family; broadway; padding: 2px;}
-    .camp_cad{width: 30%; margin; 15px; height: 15px; padding: 2px;}
-    .bt_cad{width:10%; padding;2px; font-size: 15px; font-family; Arial; color: white; background-color: gray; }
+     <style type="text/css">/* Configuração do formulário com css */
+    .titulo{font-size: 25px; font-family: broadway; padding: 2px;}
+    .camp_cad{width: 30%; margin: 2px; height: 15px; padding: 2px;}
+    .bt_cad{width:10%; padding: 2px; font-size: 15px; font-family: Arial; color: white; background-color: gray; }
     .bt_cad:hover{background-color: brown;}
     .Link{font-size: 15px; font-family: Arial; color:blue;}
 
      </style>
 
-</div>
+</div><!-- Fim da div Login -->
     
 </body>
 </html>
