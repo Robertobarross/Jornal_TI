@@ -28,12 +28,12 @@
         <h1 class="titulo">Públicar Conteúdo</h1>
  
         <!-- Formulário de postagens -->
-        <form action="Postar.php" method="$_POST" enctype="multipart/form-data">
+        <form action="Cont_post.php" method="$_POST" enctype="multipart/form-data">
         
         <!-- Campos do formulário --> 
         <br><input type="text" name="titulo" class="camp_cad" placeholder="Titulo da postagem" require></br>
         <br><input type="file" name="foto" class="camp_cad"></br>
-        <br><textarea name="conteudo" class="texto" placeholder="Digite o conteúdo com no nomáximo 1.000 caracteres..." maxlength="1.000"></textarea></br>
+        <br><textarea name="conteudo" class="texto" placeholder="Digite o conteúdo com no nomáximo 900 caracteres..." maxlength="900"></textarea></br>
 
         <!-- Botões -->
         <p><input type="submit" value="Publicar" class="bt_cad">
