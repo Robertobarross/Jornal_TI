@@ -21,22 +21,27 @@
         </style>
         
     </div><!-- Fim da div topo -->
-
+    
+    <!-- Inicio da div postagens -->
     <div id="Postagens" align="center">
 
         <h1 class="titulo">Públicar Conteúdo</h1>
-
+ 
+        <!-- Formulário de postagens -->
         <form action="Postar.php" method="$_POST" enctype="multipart/form-data">
         
+        <!-- Campos do formulário --> 
         <br><input type="text" name="titulo" class="camp_cad" placeholder="Titulo da postagem" require></br>
         <br><input type="file" name="foto" class="camp_cad"></br>
         <br><textarea name="conteudo" class="texto" placeholder="Digite o conteúdo com no nomáximo 1.000 caracteres..." maxlength="1.000"></textarea></br>
 
+        <!-- Botões -->
         <p><input type="submit" value="Publicar" class="bt_cad">
         <input type="reset" value="Limpar" class="bt_cad">
 
         </form>
 
+        <!-- Formato com css -->
         <style type="text/css">/* Formato do titulo, campos e botões com css */
         .titulo{font-size: 25px; font-family: broadway; padding: 2px;}
         .camp_cad{width: 40%; margin: 2px; height: 15px; padding: 2px;}
