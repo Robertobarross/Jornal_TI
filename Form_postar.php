@@ -32,8 +32,8 @@
         
         <!-- Campos do formulário --> 
         <br><input type="text" name="titulo" class="camp_cad" placeholder="Titulo da postagem" require></br>
-        <br><input type="file" name="foto" class="camp_cad"></br>
-        <br><textarea name="conteudo" class="texto" placeholder="Digite o conteúdo com no nomáximo 900 caracteres..." maxlength="900"></textarea></br>
+        <br><input type="file" name="foto" class="camp_cad"></br><br>
+        <textarea name="texto" class="conteudo" placeholder="Digite o conteúdo com no nomáximo 900 caracteres..." maxlength="900" require></textarea></br>
 
         <!-- Botões -->
         <p><input type="submit" value="Publicar" class="bt_cad">
@@ -45,10 +45,10 @@
         <style type="text/css">/* Formato do titulo, campos e botões com css */
         .titulo{font-size: 25px; font-family: broadway; padding: 2px;}
         .camp_cad{width: 40%; margin: 2px; height: 15px; padding: 2px;}
-        .texto{width: 40%; margin: 2px; height: 250px; padding: 2px;}
+        .conteudo{width: 40%; margin: 2px; height: 250px; padding: 2px;}
         .bt_cad{width:10%; padding: 2px; font-size: 15px; font-family: Arial; color: white; background-color: gray; }
         .bt_cad:hover{background-color: brown;}
-        .Link{font-size: 15px; font-family: Arial; color:blue;}
+        .Link{width:40%;font-size: 15px; font-family: Arial; color:blue;}
         </style>
 
 		<p><a href="index.php" class="link">&larr;Voltar para inicial</p>
