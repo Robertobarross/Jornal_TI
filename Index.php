@@ -43,11 +43,15 @@
 
     <div id="Conteudo"><!-- Inicio da div Conteúdo -->
 
-        <h3 class="Titulo_conteudo">JTi noticias</h3>
+        <?php 
+        include "Cont_post.php";
+        ?>
+
+        <!--<h3 class="Titulo_conteudo">JTi noticias</h3>
         <style type="text/css">/* Configurações da div e do titulo com css */
         #Conteudo{width: 60%; height: auto; float: left; border: 1px solid lightgray; background-color: white; margin: 5px 7px 5px;}
-        .Titulo_conteudo{font-size: 18px; font-family: broadway; color: black; margin: 5px;}
-        </style>
+        .Titulo_conteudo{font-size: 18px; font-family: broadway; color: black; margin: 5px;} */
+        </style> -->
 
     </div><!-- Fim da div conteúdo -->
 
