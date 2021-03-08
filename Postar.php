@@ -11,7 +11,7 @@
      <div id="Postar">
      
      <?php
-     //include "Cont_post.php";
+     include "Cont_post.php";
      ?>
 
      </div>
