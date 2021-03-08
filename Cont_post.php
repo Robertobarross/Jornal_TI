@@ -29,7 +29,7 @@
    <style type="text/css">
    #postagens{width: 60%; height: auto; float: left; border: 1px solid lightgray; background-color: white; margin: 5px 1px;} 
    .titulo{font-size: 15px; font-family:Times New Roman; padding: 2px; margin: 10px 5px;}
-   .Imagem{width: 75%; margin: 2px; height: 40%; padding: 2px;}
+   .Imagem{width: 90%; margin: 2px; height: 40%; padding: 2px;}
    .conteudo{font-size: 13px; font-family: Times New Roman; margin: 5px;}
    </style>
    
