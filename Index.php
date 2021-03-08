@@ -47,22 +47,13 @@
         include "Cont_post.php";
         ?>
 
-        <!--<h3 class="Titulo_conteudo">JTi noticias</h3>
-        <style type="text/css">/* Configurações da div e do titulo com css */
-        #Conteudo{width: 60%; height: auto; float: left; border: 1px solid lightgray; background-color: white; margin: 5px 7px 5px;}
-        .Titulo_conteudo{font-size: 18px; font-family: broadway; color: black; margin: 5px;} */
-        </style> -->
-
     </div><!-- Fim da div conteúdo -->
 
-    <div id="Conteudo_I"><!-- Inicio da div Conteudo_I -->
+    <div id="Conteudo_II"><!-- Inicio da div Conteudo_I -->
 
-        <!-- Obs. Essa div vai receber conteudos de menor influêcia -->
-        <h4 class="Titulo_conteudo_I"></a>Outras noticias</h4>
-        <style type="text/css">/* Configurações da div e do titulo com css */
-        #Conteudo_I{width: 28%; height: auto; float: right; border: 1px solid lightgray; background-color: white; margin: 5px 1px;}
-        .Titulo_conteudo_I{font-size: 14px; font-family: Arial; color: black; margin: 5px;}
-        </style>
+         <?php
+         include "Cont_post_II.php";
+         ?>
 
     </div><!-- Fim da div Conteudo_I -->
 
