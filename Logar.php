@@ -31,7 +31,7 @@ $senha = $_POST['senha'];
      $_SESSION['login'] = $email;
      $_SESSION['password'] = $senha;
      if ($nivel == 0) {
-     header('location:Form_postar.php');
+     header('location:Menu.php');
      }else{
      header('location:Index.php');
      }
