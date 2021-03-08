@@ -43,7 +43,7 @@
 
     <div id="Conteudo"><!-- Inicio da div Conteúdo -->
 
-        <?php 
+        <?php // Responsável pelas postagens principais //
         include "Cont_post.php";
         ?>
 
@@ -51,9 +51,9 @@
 
     <div id="Conteudo_II"><!-- Inicio da div Conteudo_I -->
 
-         <?php
-         include "Cont_post_II.php";
-         ?>
+        <?php // Responsável por outras postagens //
+        include "Cont_post_II.php";
+        ?>
 
     </div><!-- Fim da div Conteudo_I -->
 
