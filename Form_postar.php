@@ -51,7 +51,9 @@
         .Link{width:40%;font-size: 15px; font-family: Arial; color:blue;}
         </style>
 
-		<p><a href="index.php" class="link">&larr;Voltar para inicial</p>
+		<p><a href="index.php" class="link">&larr;Voltar para página inicial</p>
+        <p><a href="Menu.php" class="link">&larr;Voltar ao Painel</p>
+
 
     </div>
 
