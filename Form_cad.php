@@ -25,7 +25,7 @@
 
 <div id="Cadastro" align="center">
 
-    <h2 class="Titulo">Cadastre-se</h2><!-- Inicio da div Cadastre-se -->
+    <h2 class="Titulo">Cadastrar Usuário</h2><!-- Inicio da div Cadastre-se -->
     
     <!-- Inicio do formulário -->
     <Form action="cad.php" method="POST" enctype="multipart/form-data">
@@ -40,6 +40,7 @@
     <!-- Link para retornar ao menu inicial -->
 
     <p><a href="Index.php" class="Link" align="center">Retornar a página inicial</a></p>
+    <p><a href="Menu.php" class="Link" align="center">Retornar ao Painel</a></p>
 
     </form>
 
