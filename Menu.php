@@ -30,10 +30,13 @@
      <br><a href="Form_postar.php" class="link" style="text-decoration: none">POSTAR CONTEÚDO PRINCIPAL</a></br>
      <br><a href="Form_postar_II.php" class="link" style="text-decoration: none">POSTAR OUTROS CONTEÚDOS</a></br>
 
+     <br><a href="Index.php">&larr;Retornar a página inicial</a></br>
+
+
      <style type=text/css>/* Formato dos links com css */
      #Links{width: 100%; min-height: 500px; flood-opacity: center; border: 1px solid gray; margin: 5px 1px}
      .Links_painel{font-size: 25px; font-family: broadway; padding: 2px;}
-     .link{font-size: 14px; font-family: Arial; margin: 5px; color: white; background-color: black;}
+     .link{padding: 2px; font-size: 14px; font-family: Arial; margin: 5px; color: white; background-color: black;}
      .link:hover{background-color: gray;}/* Muda a cor do link quando o mause passa */
      </style>
           
