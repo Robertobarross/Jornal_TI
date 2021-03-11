@@ -27,7 +27,7 @@
         <h1 class="titulo">Postar Outros Conteúdos<h1>
 
         <!-- Formulário de postagens II -->
-        <form action="Cont_post.php" method="$_POST" enctype="multipart/form-data">      
+        <form action="Cont_post.php" method="POST" enctype="multipart/form-data">      
         <!-- Campos do formulário --> 
         <br><input type="text" name="titulo" class="camp_cad" placeholder="Titulo da postagem" require></br>
         <br><input type="file" name="foto" class="camp_cad"></br>
