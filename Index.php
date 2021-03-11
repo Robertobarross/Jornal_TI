@@ -10,6 +10,8 @@
 
     <div id="Global"><!-- Inicio da div global -->
 
+    <?php include 'connect.php' ?>
+
     <div id="Topo"><!-- Inicio da div top -->
 
         <!-- Titulo da aplicação -->
@@ -46,6 +48,14 @@
         <?php // Responsável pelas postagens principais //
         include "Cont_post.php";
         ?>
+
+   <style type="text/css"> /* Configuração dos campos com css */
+   #Conteudo{width: 50%; height: auto; float: left; border: 1px solid lightgray; background-color: white; margin: 5px 1px;} 
+   .titulo{font-size: 15px; font-family:Times New Roman; padding: 2px; margin: 10px 5px;}
+   .Imagem{width: 90%; margin: 2px; height: 40%; padding: 2px;}
+   .texto{font-size: 15px; font-family: Times New Roman; margin: 5px;}
+   .Data{font-size: 10px; font-family: Times New Roman; margin: 5px;}
+   </style>
 
     </div><!-- Fim da div conteúdo -->
 
