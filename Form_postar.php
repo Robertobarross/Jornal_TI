@@ -28,7 +28,7 @@
         <h1 class="titulo">Públicar Conteúdo</h1>
  
         <!-- Formulário de postagens -->
-        <form action="Cont_post.php" method="$_POST" enctype="multipart/form-data">
+        <form action="Cont_post.php" method="POST" enctype="multipart/form-data">
         
         <!-- Campos do formulário --> 
         <br><input type="text" name="titulo" class="camp_cad" placeholder="Titulo da postagem" require></br>
