@@ -1,3 +1,7 @@
+<?php
+include 'connect.php';
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,13 +12,13 @@
 </head>
 <body>
 
-     <div id="Postar">
+     <!--<div id="Postar">-->
      
      <?php
      include "Cont_post.php";
      ?>
 
-     </div>
+     <!--</div>-->
 
 
     
