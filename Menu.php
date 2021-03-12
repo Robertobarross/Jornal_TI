@@ -29,6 +29,9 @@
      <br><a href="Form_cad.php" class="link" style="text-decoration: none">CADASTRAR USUÁRIO</a></br>
      <br><a href="Form_postar.php" class="link" style="text-decoration: none">POSTAR CONTEÚDO PRINCIPAL</a></br>
      <br><a href="Form_postar_II.php" class="link" style="text-decoration: none">POSTAR OUTROS CONTEÚDOS</a></br>
+      
+     <!-- Trocar os links por botõs -->
+     <button onclick="alert('Form_cad.php')"><a href="Form_cad.php" class="" style="text-decoration: none">Abrir</button>
 
      <br><a href="Index.php">&larr;Retornar a página inicial</a></br>
 
