@@ -11,16 +11,12 @@ include 'connect.php';
     <title>Jornal_TI</title>
 </head>
 <body>
-
-     <!--<div id="Postar">-->
      
+     <div>
      <?php
      include "Cont_post.php";
      ?>
-
-     <!--</div>-->
-
-
-    
+     </div>
+   
 </body>
 </html>
