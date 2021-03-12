@@ -1,6 +1,6 @@
 <?php  // O código a baixo é responsável por fazer a consulta no banco de dados
 include 'connect.php';
-$sql = mysqli_query($link, "SELECT * FROM tb_postar ORDER BY id_postar DESC");
+$sql = mysqli_query($link, "SELECT * FROM tb_postar ORDER BY id_usuario DESC");
 	while($line = mysqli_fetch_array($sql)){
 		$titulo = $line['titulo'];
 		$foto = $line['foto'];
@@ -15,13 +15,11 @@ $sql = mysqli_query($link, "SELECT * FROM tb_postar ORDER BY id_postar DESC");
 <img src="postagens/<?php echo "post"."/".$foto;?>"class="Imagem">
 <p class="texto"><?php echo $texto;?></p>
 <span class="Data" class="hora"><?php echo date('m/d/y',strtotime ($data));echo" | ".$hora;?></span>
-</div><!--Fim da Div conteúdo principal-->
 
 <style type="text/css"> /* Configuração dos campos com css */
-    #conteudo{width: 60%; height: auto; float: left; border: 1px solid lightgray; background-color: white; margin: 5px 1px;} 
-   .titulo{font-size: 15px; font-family:Times New Roman; padding: 2px; margin: 10px 5px;}
-   .Imagem{width: 90%; margin: 2px; height: 40%; padding: 2px;}
-   .texto{font-size: 13px; font-family: Times New Roman; margin: 5px;}
+   .titulo{font-size: 15px; font-family: broadway; padding: 2px; margin: 10px 5px;}
+   .Imagem{width: 100%; margin: 2px; height: 40%; padding: 2px;}
+   .texto{font-size: 13px; font-family: Times New Roman; margin: 5px; text-align: justify;}
    .Data{font-size: 10px; font-family: Times New Roman; margin: 5px;}
 </style>
 
