@@ -26,9 +26,13 @@
     <div id="Postagens" align="center">
 
         <h1 class="titulo">Públicar Conteúdo</h1>
+
+        <?php
+        include 'connect.php';
+        ?>
  
         <!-- Formulário de postagens -->
-        <form action="Cont_post.php" method="POST" enctype="multipart/form-data">
+        <form action="Post.php" method="POST" enctype="multipart/form-data">
         
         <!-- Campos do formulário --> 
         <br><input type="text" name="titulo" class="camp_cad" placeholder="Titulo da postagem" require></br>
