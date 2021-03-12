@@ -15,13 +15,13 @@
     <div id="Topo"><!-- Inicio da div top -->
 
         <!-- Titulo da aplicação -->
-        <h1 class="Titulo">JTi<a class="Subtitulo">JORNAL TECNOLOGIA DA INFORMACAO</a></h1>
+        <h1 class="Titulo">JTi_notícias<a class="Subtitulo">JORNAL TECNOLOGIA DA INFORMACAO</a></h1>
                 
         <!-- Configuração com CSS do Topo, Titulo e Subtitulo -->   
         <style type="text/css">
         #Topo{width: 100%; height: 70px; background-color: brown; margin: 5px,5px; }
-        .Titulo{font-size: 60px; font-family: broadway; margin: 5px; margin-top: 3px; color: honeydew;}
-        .Subtitulo{font-size: 10px; font-family: Arial; float: right; margin: 8px; margin-top: 28px;}
+        .Titulo{font-size: 60px; font-family: broadway; font-style:italic; margin: 5px; margin-top: 3px; color: honeydew;}
+        .Subtitulo{font-size: 12px; font-family: broadway; float: right; margin: 8px; margin-top: 28px;}
 
         </style>
             
@@ -34,9 +34,11 @@
         <a href="Form_cad.php" class="links_menu" style="text-decoration: none">CADASTRE-SE</a>
         <a href="Contato.php" class="links_menu" style="text-decoration: none">CONTATO</a>
 
+        <button onclick="alert('Form_cad.php')"><a href="Form_cad.php" class="" style="text-decoration: none">Abrir</button>
+
         <style type="Text/css">/* Configuração do Menu e links */
         #Cardapio{width: 10%; min-height: 500px; float: left; border: 1px solid gray; margin: 5px 1px}
-        .Menu{font-size: 20px; font-family: Arial; margin: 5px; color: white; background-color: brown;}
+        .Menu{font-size: 20px; font-family: broadway; margin: 5px; color: white; background-color: brown;}
         .links_menu{font-size: 14px; font-family: Arial; margin: 5px; color: white; background-color: gray;}
         .links_menu:hover{background-color: brown;}/* Muda a cor do link quando o mause passa */
         </style>
@@ -49,13 +51,13 @@
         include "Cont_post.php";
         ?>
 
-   <style type="text/css"> /* Configuração dos campos com css */
-   #Conteudo{width: 50%; height: auto; float: left; border: 1px solid lightgray; background-color: white; margin: 5px 1px;} 
-   .titulo{font-size: 15px; font-family:Times New Roman; padding: 2px; margin: 10px 5px;}
-   .Imagem{width: 90%; margin: 2px; height: 40%; padding: 2px;}
-   .texto{font-size: 15px; font-family: Times New Roman; margin: 5px;}
-   .Data{font-size: 10px; font-family: Times New Roman; margin: 5px;}
-   </style>
+       <style type="text/css"> /* Configuração dos campos com css */
+       #Conteudo{width: 50%; height: auto; float: left; border: 1px solid lightgray; background-color: white; margin: 5px 15px 5px;} 
+      .titulo{font-size: 15px; font-family: broadway; padding: 2px; margin: 10px 5px; color: black;}
+      .Imagem{width: 100%; margin: 2px; height: 40%; padding: 2px;}
+      .texto{width: 90%; font-size: 15px; font-family: Times New Roman; margin: 5px; color: black;}
+      .Data{font-size: 10px; font-family: Times New Roman; margin: 5px; color: black;}
+      </style>
 
     </div><!-- Fim da div conteúdo -->
 
@@ -64,6 +66,14 @@
         <?php // Responsável por outras postagens //
         include "Cont_post_II.php";
         ?>
+
+        <style type="text/css"> /* Configuração dos campos com css */
+        #Conteudo_II{width: 37%; height: auto; float: right; border: 1px solid lightgray; background-color: white; margin: 5px 1px;} 
+       .titulo{font-size: 15px; font-family:Times New Roman; padding: 2px; margin: 10px 5px;}
+       .Imagem{width: 90%; margin: 2px; height: 40%; padding: 2px;}
+       .texto{font-size: 15px; font-family: Times New Roman; margin: 5px;}
+       .Data{font-size: 10px; font-family: Times New Roman; margin: 5px;}
+       </style>
 
     </div><!-- Fim da div Conteudo_I -->
 
