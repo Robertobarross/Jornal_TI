@@ -30,17 +30,14 @@
     <div id="Cardapio" align="center"><!-- Inicio da div Menu -->
 
         <h2 class="Menu">MENU</h2><!-- Menu e links de acesso -->
-        <a href="Form_login.php" class="links_menu" style="text-decoration: none">ADMINISTRADOR</a>
-        <a href="Form_cad.php" class="links_menu" style="text-decoration: none">CADASTRE-SE</a>
-        <a href="Contato.php" class="links_menu" style="text-decoration: none">CONTATO</a>
 
-        <button onclick="alert('Form_cad.php')"><a href="Form_cad.php" class="" style="text-decoration: none">Abrir</button>
+        <button onclick="alert('Fazer Login')"><a href="Form_login.php" class="Botões_menu" style="text-decoration: none">ADMINISTRADOR</button>
 
         <style type="Text/css">/* Configuração do Menu e links */
         #Cardapio{width: 10%; min-height: 500px; float: left; border: 1px solid gray; margin: 5px 1px}
         .Menu{font-size: 20px; font-family: broadway; margin: 5px; color: white; background-color: brown;}
-        .links_menu{font-size: 14px; font-family: Arial; margin: 5px; color: white; background-color: gray;}
-        .links_menu:hover{background-color: brown;}/* Muda a cor do link quando o mause passa */
+        .Botões_menu{width: 10%; font-size: 12px; font-family: Arial; color: white; background-color: brown; border-radius: 10px;}
+        .Botões_menu:hover{background-color: gray;}/* Muda a cor do link quando o mause passa */
         </style>
 
     </div><!-- Fim da div Menu -->
@@ -68,7 +65,7 @@
         ?>
 
         <style type="text/css"> /* Configuração dos campos com css */
-        #Conteudo_II{width: 37%; height: auto; float: right; border: 1px solid lightgray; background-color: white; margin: 5px 1px;} 
+        #Conteudo_II{width: 37%; height: auto; float: right; border: 1px solid lightgray; background-color: white; margin:5px 1px;} 
        .titulo{font-size: 15px; font-family:Times New Roman; padding: 2px; margin: 10px 5px;}
        .Imagem{width: 90%; margin: 2px; height: 40%; padding: 2px;}
        .texto{font-size: 15px; font-family: Times New Roman; margin: 5px;}
