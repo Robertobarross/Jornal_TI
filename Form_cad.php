@@ -11,13 +11,13 @@
 <div id="Topo"><!-- Inicio da div top -->
 
     <!-- Titulo da aplicação -->
-    <h1 class="Titulo_1">JTi<a class="Subtitulo">JORNAL TECNOLOGIA DA INFORMACAO</a></h1>
+    <h1 class="Titulo_1">JTi_notícias<a class="Subtitulo">JORNAL TECNOLOGIA DA INFORMACAO</a></h1>
                 
     <!-- Configuração com CSS do Topo, Titulo e Subtitulo -->   
     <style type="text/css">
-    #Topo{width: 100%; height: 70px; background-color: brown; margin: 5px,5px; }
-    .Titulo_1{font-size: 60px; font-family: broadway; margin: 5px; margin-top: 3px; color: honeydew;}
-    .Subtitulo{font-size: 10px; font-family: Arial; float: right; margin: 8px; margin-top: 28px;}
+    #Topo{width: 100%; height: 70px; background-color: brown; margin: 5px,5px;}
+    .Titulo_1{font-size: 60px; font-family: broadway; font-style:italic; margin: 5px; margin-top: 3px; color: honeydew;}
+    .Subtitulo{font-size: 10px; font-family: broadway; float: right; margin: 8px; margin-top: 28px;}
 
     </style>
             
@@ -45,9 +45,10 @@
     </form>
 
     <style type="text/css">/* Formato do titulo, campos e botões com css */
+    #Cadastro{border: 1px solid gray; margin: 20px 30%; min-height: 370px;}
     .Titulo{font-size: 25px; font-family: broadway; padding: 2px;}
-    .camp_cad{width: 30%; margin: 2px; height: 15px; padding: 2px;}
-    .bt_cad{width:10%; padding: 2px; font-size: 15px; font-family: Arial; color: white; background-color: gray; }
+    .camp_cad{width: 60%; margin: 2px; height: 15px; padding: 2px;}
+    .bt_cad{width:25%; padding: 2px; font-size: 15px; font-family: Arial; color: white; background-color: gray; border-radius: 10px;}
     .bt_cad:hover{background-color: brown;}
     .Link{font-size: 15px; font-family: Arial; color:blue;}
 
